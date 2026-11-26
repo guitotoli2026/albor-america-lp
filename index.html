@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Albor América | Vece Urbanismo</title>
+  <meta name="description" content="Torre única no Jardim América, em São José dos Campos: apartamentos de 3 suítes, lazer completo e rooftop no 24º pavimento. Deixe seu contato.">
+  <meta name="theme-color" content="#1E3550">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Albor América | Vece Urbanismo">
+  <meta property="og:description" content="Apartamentos de 3 suítes no Jardim América, com lazer completo e rooftop no 24º pavimento.">
+  <meta property="og:image" content="img/albor_previa.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fachada do Albor América, com a torre inteira contra o céu azul">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- 1. Topo fixo -->
+  <header class="topo">
+    <div class="topo__linha">
+      <a class="marca" href="#inicio"><img src="img/albor_logo_branco.png" width="574" height="161" alt="Albor América"></a>
+      <nav class="menu" aria-label="Menu principal">
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="botao botao--pequeno" href="#contato">Quero saber mais</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 2. Abertura -->
+    <section class="abertura" id="inicio" aria-labelledby="abertura-titulo">
+      <picture class="abertura__imagem">
+        <source media="(max-width: 1024px)" srcset="img/albor_fachada_vertical_01.jpg" width="1080" height="1338">
+        <img src="img/albor_fachada_01.jpg" width="1920" height="1079" fetchpriority="high"
+             alt="Fachada do Albor América vista de baixo, com a torre inteira contra o céu azul, o sol no alto e a entrada com palmeiras no térreo">
+      </picture>
+      <div class="abertura__veu" aria-hidden="true"></div>
+      <div class="abertura__texto">
+        <h1 id="abertura-titulo">O fim de tarde mora no 24º andar.</h1>
+        <p>Torre única da Vece Urbanismo no Jardim América, com rooftop, lazer completo e apartamentos de 3&nbsp;suítes.</p>
+        <a class="botao" href="#contato">Quero saber mais</a>
+      </div>
+    </section>
+
+    <!-- 3. O que tem no Albor América -->
+    <section class="subida" id="diferenciais" aria-labelledby="subida-titulo">
+      <div class="subida__trecho subida__trecho--dia">
+        <div class="conteudo">
+          <header class="cabecalho">
+            <h2 id="subida-titulo">Lazer do 2º sobressolo ao 24º andar.</h2>
+            <p>Albor Club, piscinas e espaço para as crianças embaixo. Academia, coworking e fire lounge no rooftop. Uma torre só, com 120 apartamentos.</p>
+          </header>
+
+          <ul class="cartoes" role="list">
+            <li class="cartao">
+              <img src="img/albor_club_gourmet_01.jpg" width="1200" height="675" loading="lazy"
+                   alt="Albor Club com amigos reunidos em volta da churrasqueira, mesas de madeira e a cidade ao fundo, no fim da tarde">
+              <p class="cartao__andar">2º sobressolo</p>
+              <h3 class="cartao__titulo">
+                <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h16a8 8 0 0 1-16 0Z"/><path d="M8 18l-2 3M16 18l2 3M9 6c0-1 1-1.5 1-2.5M13 6c0-1 1-1.5 1-2.5"/></svg>
+                Albor Club
+              </h3>
+              <p class="cartao__linha">Espaço gourmet com churrasqueira, para receber sem lotar a sala.</p>
+            </li>
+            <li class="cartao">
+              <img src="img/albor_piscina_01.jpg" width="1200" height="670" loading="lazy"
+                   alt="Piscina com espreguiçadeiras brancas na borda, pergolado com flores e a torre ao fundo, num dia de sol">
+              <p class="cartao__andar">2º sobressolo</p>
+              <h3 class="cartao__titulo">
+                <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 15c1.5 0 1.5-1 3-1s1.5 1 3 1 1.5-1 3-1 1.5 1 3 1 1.5-1 3-1 1.5 1 3 1"/><path d="M3 19c1.5 0 1.5-1 3-1s1.5 1 3 1 1.5-1 3-1 1.5 1 3 1 1.5-1 3-1 1.5 1 3 1"/><path d="M8 12V5a2 2 0 0 1 4 0M16 12V5a2 2 0 0 0-4 0M8 8h8"/></svg>
+                Piscina lounge e piscina kids
+              </h3>
+              <p class="cartao__linha">Uma para relaxar, outra para as crianças, lado a lado.</p>
+            </li>
+            <li class="cartao">
+              <img src="img/albor_parquinho_pet_01.jpg" width="1200" height="675" loading="lazy"
+                   alt="Espaço pet com um cachorro na rampa de agility e, ao lado, uma criança subindo no playground, ao pôr do sol">
+              <p class="cartao__andar">2º sobressolo</p>
+              <h3 class="cartao__titulo">
+                <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="9" r="1.8"/><circle cx="11" cy="6" r="1.8"/><circle cx="15" cy="6" r="1.8"/><circle cx="18.5" cy="9.5" r="1.8"/><path d="M8.5 17.5c0-2.5 1.8-5 4-5s4 2.5 4 5c0 1.5-1.2 2-2 2-1 0-1.3-.6-2-.6s-1 .6-2 .6c-.8 0-2-.5-2-2Z"/></svg>
+                Parquinho, espaço pet e quadra
+              </h3>
+              <p class="cartao__linha">Playground, pet place e quadra poliesportiva ao ar livre.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subida__transicao" aria-hidden="true"></div>
+
+      <div class="subida__trecho subida__trecho--noite">
+        <div class="conteudo">
+          <ul class="cartoes" role="list">
+            <li class="cartao">
+              <img src="img/albor_coworking_01.jpg" width="1200" height="675" loading="lazy"
+                   alt="Coworking iluminado pelo sol da tarde, com uma pessoa trabalhando na mesa, bancada com banquetas e poltrona">
+              <p class="cartao__andar">24º pavimento</p>
+              <h3 class="cartao__titulo">
+                <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="5" width="14" height="10" rx="1"/><path d="M3 19h18"/></svg>
+                Coworking
+              </h3>
+              <p class="cartao__linha">Um escritório no alto, a um elevador de casa.</p>
+            </li>
+            <li class="cartao">
+              <img src="img/albor_gym_e_box_01.jpg" width="1200" height="675" loading="lazy"
+                   alt="Albor Gym ao pôr do sol, com pessoas treinando na esteira e no supino diante de janelas do chão ao teto">
+              <p class="cartao__andar">24º pavimento</p>
+              <h3 class="cartao__titulo">
+                <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7v10M17 7v10M4 9.5v5M20 9.5v5M7 12h10"/></svg>
+                Albor Gym e Albor Box
+              </h3>
+              <p class="cartao__linha">Academia e treino funcional com a cidade inteira na janela.</p>
+            </li>
+            <li class="cartao">
+              <img src="img/albor_fire_lounge_01.jpg" width="1200" height="675" loading="lazy"
+                   alt="Fire lounge à noite, com um casal no sofá curvo em volta da lareira acesa, cercado de folhagens iluminadas">
+              <p class="cartao__andar">24º pavimento</p>
+              <h3 class="cartao__titulo">
+                <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c.5 3 4.5 5 4.5 9.5a4.5 4.5 0 0 1-9 0c0-2 1-3.3 2-4.3.3 1.5 1 2.3 2 2.6C11 8.5 11 6 12 3Z"/><path d="M5 21h14"/></svg>
+                Fire lounge e skybar
+              </h3>
+              <p class="cartao__linha">Lareira externa e bar para ver o sol se pôr do alto.</p>
+            </li>
+          </ul>
+
+          <div class="subida__fim">
+            <a class="botao" href="#contato">Quero saber mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Galeria -->
+    <section class="galeria" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="conteudo">
+        <header class="cabecalho">
+          <h2 id="galeria-titulo">Galeria</h2>
+          <p>Toque numa imagem para ver em tela cheia</p>
+        </header>
+
+        <ul class="mosaico" role="list">
+          <li class="mosaico__item mosaico__item--destaque"><button type="button"><img src="img/albor_skybar_externo_01.jpg" width="1200" height="675" loading="lazy" alt="Skybar externo no rooftop à noite, com amigos conversando nos sofás, espreguiçadeiras listradas e folhagens iluminadas"></button></li>
+          <li class="mosaico__item"><button type="button"><img src="img/albor_piscina_02.jpg" width="1200" height="675" loading="lazy" alt="Piscina com espreguiçadeiras, pessoas tomando sol e nadando, e a cidade com a serra ao fundo"></button></li>
+          <li class="mosaico__item"><button type="button"><img src="img/albor_apto_sala_02.jpg" width="1200" height="675" loading="lazy" alt="Sala de um apartamento com sofá em L, almofadas e luz da tarde entrando pelas janelas com persianas"></button></li>
+          <li class="mosaico__item mosaico__item--largo"><button type="button"><img src="img/albor_club_gourmet_02.jpg" width="1200" height="670" loading="lazy" alt="Albor Club com mesas postas, cadeiras claras e guarda-corpo de vidro aberto para os prédios ao entardecer"></button></li>
+          <li class="mosaico__item"><button type="button"><img src="img/albor_recepcao_01.jpg" width="1200" height="675" loading="lazy" alt="Família chegando à recepção do térreo, com sofá claro, poltronas, painel de madeira e jardim"></button></li>
+          <li class="mosaico__item"><button type="button"><img src="img/albor_piscina_kids_01.jpg" width="1200" height="675" loading="lazy" alt="Piscina kids com crianças brincando na água, mães conversando na borda e um menino na ducha"></button></li>
+          <li class="mosaico__item"><button type="button"><img src="img/albor_quadra_01.jpg" width="1200" height="670" loading="lazy" alt="Quadra poliesportiva com crianças jogando bola, cercada por tela, com palmeiras e a cidade ao fundo"></button></li>
+          <li class="mosaico__item"><button type="button"><img src="img/albor_apto_cozinha_01.jpg" width="1200" height="675" loading="lazy" alt="Cozinha de um apartamento com ilha, banquetas, marcenaria de madeira e porta de vidro para a varanda"></button></li>
+          <li class="mosaico__item"><button type="button"><img src="img/albor_salao_de_festas_01.jpg" width="1200" height="670" loading="lazy" alt="Salão de festas com uma festa infantil, balões coloridos, mesa de doces e janelas do chão ao teto"></button></li>
+          <li class="mosaico__item"><button type="button"><img src="img/albor_lounge_de_jogos_01.jpg" width="1200" height="675" loading="lazy" alt="Lounge de jogos com partida de xadrez, pingue-pongue, pebolim e letreiro Play iluminado"></button></li>
+          <li class="mosaico__item"><button type="button"><img src="img/albor_brinquedoteca_01.jpg" width="1200" height="675" loading="lazy" alt="Brinquedoteca com crianças na piscina de bolinhas, paredes coloridas e um quadro Be Kind"></button></li>
+          <li class="mosaico__item"><button type="button"><img src="img/albor_apto_suite_01.jpg" width="1200" height="675" loading="lazy" alt="Suíte com cama de casal, cabeceira de madeira, luminárias pendentes e sol entrando pela janela"></button></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Plantas (extra, referência: página oficial da Vece) -->
+    <section class="plantas" id="plantas" aria-labelledby="plantas-titulo">
+      <div class="conteudo plantas__grade">
+        <div class="plantas__visor">
+          <div class="plantas__abas" role="tablist" aria-label="Tipos de apartamento">
+            <button type="button" role="tab" id="aba-tipo1" aria-controls="painel-tipo1" aria-selected="true">Tipo 1</button>
+            <button type="button" role="tab" id="aba-tipo3" aria-controls="painel-tipo3" aria-selected="false" tabindex="-1">Tipo 3</button>
+            <button type="button" role="tab" id="aba-tipo4" aria-controls="painel-tipo4" aria-selected="false" tabindex="-1">Tipo 4</button>
+          </div>
+
+          <div class="carrossel" role="tabpanel" id="painel-tipo1" aria-labelledby="aba-tipo1">
+            <div class="carrossel__trilho">
+              <img src="img/albor_planta_tipo1_01.jpg" width="1200" height="1096" loading="lazy" alt="Planta humanizada do apartamento tipo 1 vista de cima, com suíte master, duas demi-suítes, sala integrada à cozinha e varanda">
+              <img src="img/albor_planta_tipo1_02.jpg" width="1200" height="1057" loading="lazy" alt="Planta humanizada do tipo 1 em outro ângulo, mostrando a sala com sofá, a mesa de jantar e a varanda gourmet">
+              <img src="img/albor_planta_tipo1_03.jpg" width="1200" height="1035" loading="lazy" alt="Planta humanizada do tipo 1 em outro ângulo, com destaque para as suítes e os banheiros">
+            </div>
+          </div>
+          <div class="carrossel" role="tabpanel" id="painel-tipo3" aria-labelledby="aba-tipo3" hidden>
+            <div class="carrossel__trilho">
+              <img src="img/albor_planta_tipo3_01.jpg" width="1200" height="703" loading="lazy" alt="Planta humanizada do apartamento tipo 3 vista de cima, com as três suítes, sala, cozinha e varanda">
+              <img src="img/albor_planta_tipo3_02.jpg" width="1200" height="672" loading="lazy" alt="Planta humanizada do tipo 3 em outro ângulo, mostrando a área social integrada">
+              <img src="img/albor_planta_tipo3_03.jpg" width="1200" height="742" loading="lazy" alt="Planta humanizada do tipo 3 em outro ângulo, com destaque para as suítes">
+            </div>
+          </div>
+          <div class="carrossel" role="tabpanel" id="painel-tipo4" aria-labelledby="aba-tipo4" hidden>
+            <div class="carrossel__trilho">
+              <img src="img/albor_planta_tipo4_01.jpg" width="1200" height="732" loading="lazy" alt="Planta humanizada do apartamento tipo 4 vista de cima, com sala de piso de madeira, cozinha, varanda e suítes">
+              <img src="img/albor_planta_tipo4_02.jpg" width="1200" height="713" loading="lazy" alt="Planta humanizada do tipo 4 em outro ângulo, mostrando a sala com sofá curvo e a cozinha">
+              <img src="img/albor_planta_tipo4_03.jpg" width="1200" height="1070" loading="lazy" alt="Planta humanizada do tipo 4 em outro ângulo, com destaque para a suíte master">
+            </div>
+          </div>
+
+          <div class="carrossel__controles">
+            <button type="button" class="carrossel__seta" data-passo="-1" aria-label="Imagem anterior da planta">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+            </button>
+            <p class="carrossel__contador" aria-live="polite">1 de 3</p>
+            <button type="button" class="carrossel__seta" data-passo="1" aria-label="Próxima imagem da planta">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="plantas__texto">
+          <h2 id="plantas-titulo">Espaço inteligente, planejado para a vida real.</h2>
+          <ul class="plantas__lista" role="list">
+            <li>
+              <span class="plantas__icone" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M8 8l8 8M8 8h3M8 8v3M16 16h-3M16 16v-3"/></svg></span>
+              <p>No Albor, cada um dos 86 m² foi projetado para valorizar a convivência e a privacidade.</p>
+            </li>
+            <li>
+              <span class="plantas__icone" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 18v-7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7M3 15h18M3 18v2M21 18v2"/><path d="M6 9V7a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M12 9V7a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg></span>
+              <p>Suíte master e duas demi-suítes: conforto para os filhos e privacidade para o casal.</p>
+            </li>
+            <li>
+              <span class="plantas__icone" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V10h10v10M4 14h10M14 20h6V8h-6"/><path d="M7 7l2-3 2 3M17 11v2"/></svg></span>
+              <p>Cozinha, sala de estar e varanda integradas. E um lavabo para receber as visitas.</p>
+            </li>
+          </ul>
+          <a class="botao" href="#contato">Quero saber mais</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Localização (extra, referência: página oficial da Vece) -->
+    <section class="localizacao" id="localizacao" aria-labelledby="localizacao-titulo">
+      <div class="conteudo">
+        <header class="cabecalho">
+          <h2 id="localizacao-titulo">No Jardim América, perto de tudo.</h2>
+          <p>A 4 minutos a pé do Shopping Jardim Oriente, perto da Avenida Bacabal e da Linha Verde, na Zona Sul de São José dos Campos.</p>
+        </header>
+        <div class="mapa">
+          <div class="mapa__tela">
+            <div class="mapa__quadro">
+              <img class="mapa__base" src="img/albor_mapa_base.svg" width="1600" height="900" loading="lazy"
+                   alt="Mapa ilustrado do Jardim América: o Albor América na Rua Bariloche, o caminho a pé até o Shopping Jardim Oriente, o plantão de vendas na Rua Andorra, a Avenida Bacabal e a Linha Verde">
+
+              <span class="mapa__via" style="left: 35.5%; top: 16%; --giro: -64.5deg;" aria-hidden="true">Av. Bacabal</span>
+              <span class="mapa__via mapa__via--verde" style="left: 62.4%; top: 12%; --giro: -88deg;" aria-hidden="true">Linha Verde</span>
+              <span class="mapa__rota" style="left: 55%; top: 47%;" aria-hidden="true">4 min a pé</span>
+
+              <span class="pino pino--albor" style="left: 41.10%; top: 38.55%;" aria-hidden="true">
+                <span class="pino__ponto"></span><span class="pino__rotulo">Albor América</span>
+              </span>
+              <span class="pino pino--shopping" style="left: 65.83%; top: 66.55%;" aria-hidden="true">
+                <span class="pino__ponto"></span><span class="pino__rotulo">Shopping Jardim Oriente</span>
+              </span>
+              <span class="pino pino--plantao" style="left: 62.35%; top: 30.93%;" aria-hidden="true">
+                <span class="pino__ponto"></span><span class="pino__rotulo">Plantão de vendas</span>
+              </span>
+            </div>
+          </div>
+
+          <ul class="mapa__legenda" role="list">
+            <li><span class="mapa__marca mapa__marca--rota" aria-hidden="true"></span><p><strong>Shopping Jardim Oriente</strong> a 4 minutos a pé</p></li>
+            <li><span class="mapa__marca mapa__marca--ponto" aria-hidden="true"></span><p><strong>Plantão de vendas</strong> na Rua Andorra, 452, ao lado do Varandas Oriente</p></li>
+            <li><span class="mapa__marca mapa__marca--via" aria-hidden="true"></span><p>Perto da <strong>Avenida Bacabal</strong> e da <strong>Linha Verde</strong></p></li>
+            <li><span class="mapa__marca mapa__marca--anel" aria-hidden="true"></span><p>Raio de 400 m em volta do prédio</p></li>
+          </ul>
+        </div>
+
+        <a class="localizacao__link" href="https://maps.app.goo.gl/tNWwj4r3gZzQryo8A" target="_blank" rel="noopener">Abrir no Google Maps</a>
+        <p class="localizacao__credito">Mapa ilustrativo feito a partir de dados do <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>.</p>
+      </div>
+    </section>
+
+    <!-- 5. Contato -->
+    <section class="contato" id="contato" aria-labelledby="contato-titulo">
+      <div class="contato__fundo">
+        <img src="img/albor_contato_fundo_01.jpg" width="1920" height="1080" loading="lazy"
+             alt="Sala de estar de um apartamento com sofá em L, cortinas e janelas recebendo a luz da tarde">
+      </div>
+
+      <div class="conteudo contato__grade">
+        <div class="contato__chamada">
+          <h2 id="contato-titulo">Quero saber mais sobre o Albor América</h2>
+          <p class="contato__apoio">Deixe seu contato e a equipe do Albor América fala com você.</p>
+        </div>
+
+        <div class="contato__cartao">
+          <form class="formulario" id="formulario" novalidate>
+            <div class="campo">
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" type="text" autocomplete="name" required>
+              <p class="campo__erro" id="nome-erro"></p>
+            </div>
+            <div class="campo">
+              <label for="telefone">Telefone com DDD</label>
+              <input id="telefone" name="telefone" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="(12) 99999-9999" required>
+              <p class="campo__erro" id="telefone-erro"></p>
+            </div>
+            <div class="campo">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <p class="campo__erro" id="email-erro"></p>
+            </div>
+            <fieldset class="campo campo--opcoes">
+              <legend>Qual apartamento te interessa?</legend>
+              <div class="opcoes">
+                <label class="opcao"><input type="radio" name="apartamento" value="Tipo 1" required><span>Tipo 1</span></label>
+                <label class="opcao"><input type="radio" name="apartamento" value="Tipo 1 ampliado"><span>Tipo 1 ampliado</span></label>
+                <label class="opcao"><input type="radio" name="apartamento" value="Tipo 4"><span>Tipo 4</span></label>
+                <label class="opcao"><input type="radio" name="apartamento" value="Ainda não sei"><span>Ainda não sei</span></label>
+              </div>
+              <p class="campo__erro" id="apartamento-erro"></p>
+            </fieldset>
+            <div class="campo campo--aceite">
+              <label class="aceite">
+                <input id="aceite" name="aceite" type="checkbox" required>
+                <span>Aceito receber contato da equipe do Albor América por telefone, WhatsApp ou e-mail.</span>
+              </label>
+              <p class="campo__erro" id="aceite-erro"></p>
+            </div>
+
+            <div class="formulario__botoes">
+              <button class="botao" type="submit">Quero saber mais</button>
+              <a class="botao botao--contorno" id="whatsapp" href="https://wa.me/?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Albor%20Am%C3%A9rica." target="_blank" rel="noopener">Falar no WhatsApp</a>
+            </div>
+          </form>
+
+          <div class="confirmacao" id="confirmacao" role="status" tabindex="-1" hidden>
+            <h3>Recebemos o seu contato</h3>
+            <p>Obrigado. A equipe do Albor América vai falar com você em breve.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="conteudo creditos">
+        <img class="creditos__vece" src="img/vece_logo_branco.png" width="600" height="263" loading="lazy" alt="Vece Urbanismo">
+        <p>Albor América é um empreendimento da Vece Urbanismo. Arquitetura de Ilda Menini e interiores de Natalia Buscardi. Imagens meramente ilustrativas.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Tela cheia da galeria -->
+  <div class="tela-cheia" id="tela-cheia" role="dialog" aria-modal="true" aria-label="Imagem em tela cheia" hidden>
+    <figure class="tela-cheia__figura">
+      <img id="tela-cheia-img" src="" alt="">
+      <figcaption id="tela-cheia-legenda"></figcaption>
+    </figure>
+    <button class="tela-cheia__botao tela-cheia__fechar" type="button" aria-label="Fechar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <button class="tela-cheia__botao tela-cheia__anterior" type="button" aria-label="Imagem anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <button class="tela-cheia__botao tela-cheia__proxima" type="button" aria-label="Próxima imagem">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+    <p class="tela-cheia__contador" id="tela-cheia-contador" aria-live="polite"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Material original do cliente: fica só no computador, não vai para o GitHub
+material/
+
+# Arquivo de sistema do macOS
+.DS_Store
